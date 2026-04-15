@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tsubasa Matsugi | Portfolio</title>
+  <meta
+    name="description"
+    content="松木翼のポートフォリオサイト。LLMを活用したアプリ開発や小規模LLMの推論改善研究、Go・Python・TypeScriptを用いた開発経験を紹介しています。"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <p class="hero-label">Portfolio</p>
+      <h1>Tsubasa Matsugi</h1>
+      <p class="hero-subtitle">Kyushu Institute of Technology</p>
+      <p class="hero-text">
+        LLMを活用したアプリケーション開発と、小規模言語モデルの推論改善に取り組む学生です。
+        Python、Go、TypeScriptを中心に、研究と実装の両面から技術を深めています。
+      </p>
+
+      <div class="hero-links">
+        <a href="https://github.com/Mtsubasa" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://x.com/tsubasam07" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://zenn.dev/tsubasa_m" target="_blank" rel="noopener noreferrer">Zenn</a>
+        <a href="https://qiita.com/Mtsubasa" target="_blank" rel="noopener noreferrer">Qiita</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="card">
+          <p>
+            九州工業大学に在学中の学生です。Python、Go、TypeScriptを中心に、
+            フロントエンドからバックエンドまで幅広く開発しています。
+          </p>
+          <p>
+            現在は、LLMを活用したアプリケーション開発と、
+            低リソース環境における日本語数理推論性能の改善に関心を持ち、
+            研究と個人開発の両方に取り組んでいます。
+          </p>
+          <p>
+            課題を技術で形にすることを大切にしており、
+            インターンや個人開発を通して実践的なスキルを磨いています。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Languages</h3>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Go</li>
+              <li>TypeScript</li>
+              <li>C++</li>
+              <li>C</li>
+              <li>HTML / CSS</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Frontend</h3>
+            <ul class="tag-list">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Flutter</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Backend</h3>
+            <ul class="tag-list">
+              <li>Go</li>
+              <li>Node.js</li>
+              <li>Hono</li>
+              <li>Gin</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Infrastructure / DB</h3>
+            <ul class="tag-list">
+              <li>Docker</li>
+              <li>AWS</li>
+              <li>Cloudflare</li>
+              <li>Vercel</li>
+              <li>Render</li>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>AI / ML</h3>
+            <ul class="tag-list">
+              <li>LangChain</li>
+              <li>OpenRouter API</li>
+              <li>Hugging Face API</li>
+              <li>LoRA</li>
+              <li>GRPO</li>
+              <li>PyTorch</li>
+              <li>RAG</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Tools</h3>
+            <ul class="tag-list">
+              <li>GitHub</li>
+              <li>GitHub Projects</li>
+              <li>Figma</li>
+              <li>Discord</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+          <article class="card project-card">
+            <h3>Japanese Math Reasoning Improvement for Small LLMs</h3>
+            <p>
+              日本語のChain-of-Thoughtデータ蒸留とGRPOを組み合わせ、
+              3BクラスのLLMにおける日本語数理推論性能の改善を目指した研究です。
+              単一のLaptop GPUという制約下で、実用的な改善手法の検証を行いました。
+            </p>
+            <p class="tech"><strong>Tech:</strong> Python, PyTorch, Unsloth, TRL, LoRA, GRPO</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>だしトモ - LLM Pet Application</h3>
+            <p>
+              LLMを活用した対話型ペットアプリです。会話履歴や長期記憶、
+              世代交代による記憶継承の仕組みを設計し、継続的に愛着を持てる体験を目指しました。
+            </p>
+            <p class="tech"><strong>Tech:</strong> Flutter, Go, WebSocket, PostgreSQL, Docker</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Automatic Report Generation Tool</h3>
+            <p>
+              Web検索、要約、文章生成を組み合わせ、
+              情報収集からレポート作成までを自動化するツールです。
+              LLMを活用した処理フロー設計とAPI連携を行いました。
+            </p>
+            <p class="tech"><strong>Tech:</strong> Python, LangChain, OpenRouter API</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Image Generation App</h3>
+            <p>
+              Hugging Face APIを用いて画像生成を行うアプリです。
+              画像履歴の表示や複数枚生成など、ユーザー体験を意識した機能追加とUI改善に取り組みました。
+            </p>
+            <p class="tech"><strong>Tech:</strong> Python, Hugging Face API</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Real-time Translation App</h3>
+            <p>
+              音声認識、翻訳、テキスト表示、音声再生を組み合わせたリアルタイム翻訳アプリです。
+              AI機能を組み合わせながら、使いやすいUIの実装にも取り組みました。
+            </p>
+            <p class="tech"><strong>Tech:</strong> Python</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Go Boundary Test Support Tool</h3>
+            <p>
+              GoのASTを用いて条件式を解析し、境界値テストの設計を支援するツールです。
+              比較演算子や条件分岐に注目し、テストケース作成の効率化を目指しました。
+            </p>
+            <p class="tech"><strong>Tech:</strong> Go, AST</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-grid">
+          <div class="card">
+            <h3>Internship</h3>
+            <p>
+              Emoba Inc. にて、Node.js や Go を用いた開発に取り組みました。
+              フロントエンド・バックエンドの両方に関わり、
+              LLMを活用したシステム開発も経験しました。
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Activities</h3>
+            <p>
+              福岡未踏では、Flutterを用いたプロトタイプ開発に加え、
+              要件定義、タスク管理、ミーティング調整、資料作成などにも取り組みました。
+              また、LLM関連の講義や技術コミュニティへの参加を通して、継続的に学習しています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="links">
+      <div class="container">
+        <h2 class="section-title">Links</h2>
+        <div class="card">
+          <ul class="link-list">
+            <li>
+              <a href="https://github.com/Mtsubasa" target="_blank" rel="noopener noreferrer">
+                GitHub / Mtsubasa
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/tsubasam07" target="_blank" rel="noopener noreferrer">
+                X / @tsubasam07
+              </a>
+            </li>
+            <li>
+              <a href="https://zenn.dev/tsubasa_m" target="_blank" rel="noopener noreferrer">
+                Zenn / tsubasa_m
+              </a>
+            </li>
+            <li>
+              <a href="https://qiita.com/Mtsubasa" target="_blank" rel="noopener noreferrer">
+                Qiita / Mtsubasa
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Tsubasa Matsugi</p>
+    </div>
+  </footer>
+</body>
+</html>
