@@ -12,10 +12,11 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-inner">
-      <a href="#top" class="site-name">松木 翼</a>
-      <nav class="nav-links" aria-label="セクション移動">
-        <a href="#summary">Summary</a>
+    <div class="container nav">
+      <a href="#top" class="logo">松木 翼</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#certifications">資格</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
@@ -28,186 +29,234 @@
   <main id="top">
     <section class="hero">
       <div class="container hero-inner">
-        <p class="eyebrow">PORTFOLIO</p>
+        <p class="hero-kicker">PORTFOLIO</p>
         <h1>松木 翼</h1>
-        <p class="hero-subtitle">九州工業大学 情報工学部 情報通信工学科</p>
-        <p class="hero-text">
-          Go・Python・TypeScriptを用いたWebアプリ開発や開発支援ツールの実装に取り組んでいます。
-          バックエンドを中心に、設計意図を説明できる開発を大切にしています。
+        <p class="hero-subtitle">九州工業大学大学院 情報工学府 情報創生工学専攻</p>
+        <p class="hero-lead">
+          Go・Python・TypeScriptを用いて、Webアプリ開発や開発支援ツールの実装に取り組んでいます。
+          バックエンドを中心に、実装だけでなく設計意図や技術選定理由を説明できる開発を大切にしています。
         </p>
+        <div class="hero-actions">
+          <a href="#projects" class="button button-primary">成果物を見る</a>
+          <a href="#contact" class="button button-secondary">リンクを見る</a>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="summary">
-      <div class="container narrow">
-        <h2>Summary</h2>
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="panel-grid two-col">
+          <section class="panel">
+            <h3>概要</h3>
+            <ul class="detail-list">
+              <li><span>所属</span><strong>九州工業大学大学院 情報工学府 情報創生工学専攻</strong></li>
+              <li><span>志向</span><strong>Goを軸にしたバックエンド開発 / Webアプリ開発</strong></li>
+              <li><span>公開中の成果物</span><strong>学マス音楽チャート / 境界値チェッカー</strong></li>
+              <li><span>強み</span><strong>設計意図や技術選定理由を言語化できること</strong></li>
+            </ul>
+          </section>
+          <section class="panel">
+            <h3>大切にしていること</h3>
+            <p>
+              バックエンド開発、API設計、開発者向けツール、リアルタイム通信、保守しやすい設計に関心があります。
+            </p>
+            <p>
+              動くものを作るだけでなく、なぜその構成にしたのか、なぜその技術を選んだのかを説明できる開発を意識しています。
+              また、学んだことのアウトプットを大切にしています。
+            </p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="certifications">
+      <div class="container">
+        <h2 class="section-title">資格</h2>
         <div class="panel">
-          <ul class="summary-list">
-            <li><strong>所属:</strong> 九州工業大学 情報工学部 情報通信工学科</li>
-            <li><strong>進学予定:</strong> 九州工業大学大学院 情報工学府 情報創生工学専攻</li>
-            <li><strong>志向:</strong> Goを軸にしたバックエンド開発 / Webアプリ開発</li>
-            <li><strong>公開中の成果物:</strong> 学マス音楽チャート、境界値チェッカー</li>
-            <li><strong>強み:</strong> 実装だけでなく、設計意図や技術選定理由を説明できること</li>
+          <ul class="detail-list compact">
+            <li><span>2021年10月</span><strong>基本情報技術者試験 合格</strong></li>
+            <li><span>2022年6月</span><strong>応用情報技術者試験 合格</strong></li>
+            <li><span>2024年3月</span><strong>第一種陸上特殊無線技士（認定）</strong></li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="experience">
-      <div class="container narrow">
-        <h2>Experience</h2>
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-list">
+          <article class="panel experience-card">
+            <div class="meta-row">
+              <span class="meta-date">2026年2月 〜 2026年3月</span>
+              <span class="meta-tag">インターン</span>
+            </div>
+            <h3>株式会社サイバーエージェント / Go College</h3>
+            <p>
+              Goを用いたバックエンド開発インターンに参加し、約1か月の学習期間と4日間のオフライン開発を通して開発支援ツールの制作に取り組みました。
+              チームワークを高めることはもちろん、チーム外にも積極的にコミュニケーションを広げました。
+              その結果、最終発表で最優秀賞をいただくことができました。
+            </p>
+            <p class="inline-link"><a href="https://qiita.com/Mtsubasa/items/305dd522cbf8816997c9" target="_blank" rel="noopener noreferrer">参加レポート</a></p>
+          </article>
 
-        <article class="entry">
-          <p class="entry-date">2026年2月 〜 2026年3月</p>
-          <h3>株式会社サイバーエージェント / Go College</h3>
-          <p>
-            約1か月のGo学習期間と4日間のオフライン開発に参加し、最終課題として開発支援ツールの制作に取り組みました。
-            チーム内の協力だけでなく、プチ技術交流会や対面交流会の企画などを通して、チーム外にも積極的にコミュニケーションを広げました。
-            その結果、最終発表で最優秀賞をいただきました。
-          </p>
-          <p class="inline-link">
-            <a href="https://qiita.com/Mtsubasa/items/305dd522cbf8816997c9" target="_blank" rel="noopener noreferrer">参加レポート</a>
-          </p>
-        </article>
+          <article class="panel experience-card">
+            <div class="meta-row">
+              <span class="meta-date">2025年5月 〜 現在</span>
+              <span class="meta-tag">インターン</span>
+            </div>
+            <h3>エモバ株式会社 / エンジニアインターン</h3>
+            <p>
+              Node.js や Go を用いた開発に取り組み、フロントエンド・バックエンドの両方を経験しています。
+              機能実装だけでなく、チームでの開発フローや実践的な開発経験も積んでいます。
+            </p>
+          </article>
 
-        <article class="entry">
-          <p class="entry-date">2025年5月 〜 現在</p>
-          <h3>エモバ株式会社 / エンジニアインターン</h3>
-          <p>
-            Node.js や Go を用いた開発に取り組み、フロントエンド・バックエンドの両方を経験しています。
-            機能実装だけでなく、チームでの開発フローや実践的な開発経験も積んでいます。
-          </p>
-        </article>
+          <article class="panel experience-card">
+            <div class="meta-row">
+              <span class="meta-date">2025年9月 〜 2026年1月</span>
+              <span class="meta-tag">プロジェクト</span>
+            </div>
+            <h3>福岡未踏 / 課題解決コース</h3>
+            <p>
+              Flutterを用いたプロトタイプ開発に加え、要件定義、タスク分解、GitHub Projectsでの管理、ミーティング調整、資料作成などに取り組みました。
+              また、継続利用を意識したゲーミフィケーション機能の開発も行い、実際にアンケートを取って改善点を洗い出し、最終成果につなげることができました。
+            </p>
+            <p class="inline-link"><a href="https://note.com/mitou_fukuoka/n/n8fbac2deb53d" target="_blank" rel="noopener noreferrer">紹介記事</a></p>
+          </article>
 
-        <article class="entry">
-          <p class="entry-date">2025年9月 〜 2026年1月</p>
-          <h3>福岡未踏 / 課題解決コース</h3>
-          <p>
-            Flutterを用いたプロトタイプ開発に加え、要件定義、タスク分解、GitHub Projectsでの管理、ミーティング調整、資料作成などに取り組みました。
-            また、称号・衣装・ミニゲームなど、継続利用を意識したゲーミフィケーション機能の開発も行いました。
-            テスターからの意見をもとに会話の深掘りや話題提供などを改善し、最終成果につなげました。
-          </p>
-          <p class="inline-link">
-            <a href="https://note.com/mitou_fukuoka/n/n8fbac2deb53d" target="_blank" rel="noopener noreferrer">紹介記事</a>
-          </p>
-        </article>
-
-        <article class="entry">
-          <p class="entry-date">継続中</p>
-          <h3>個人開発・技術記事執筆</h3>
-          <p>
-            Go、Python、TypeScriptを用いた個人開発を継続しています。
-            また、Zenn や Qiita で技術記事を執筆し、学んだことを言語化して発信しています。
-          </p>
-        </article>
+          <article class="panel experience-card">
+            <div class="meta-row">
+              <span class="meta-date">継続中</span>
+              <span class="meta-tag">個人開発</span>
+            </div>
+            <h3>個人開発・技術記事執筆</h3>
+            <p>
+              Go、Python、TypeScriptを用いた個人開発を継続しています。
+              また、Zenn や Qiita で技術記事を執筆し、学んだことを言語化して発信しています。
+              学んだことのアウトプットを大切にしています。
+            </p>
+            <p class="inline-link">
+              <a href="https://zenn.dev/tsubasa_m" target="_blank" rel="noopener noreferrer">Zenn</a>
+              <span class="separator-dot">/</span>
+              <a href="https://qiita.com/Mtsubasa" target="_blank" rel="noopener noreferrer">Qiita</a>
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="projects">
-      <div class="container narrow">
-        <h2>Projects</h2>
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-list">
+          <article class="panel project-card">
+            <div class="meta-row">
+              <h3>学マス音楽チャート</h3>
+            </div>
+            <p>
+              学園アイドルマスターの楽曲を整理した成果物です。リポジトリを公開しています。
+            </p>
+            <p class="inline-link"><a href="https://github.com/Mtsubasa/gakumasu_music_charts" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+          </article>
 
-        <article class="entry">
-          <div class="entry-head">
-            <h3>学マス音楽チャート</h3>
-            <a href="https://mtsubasa.github.io/" target="_blank" rel="noopener noreferrer">Open</a>
-          </div>
-          <p>
-            学園アイドルマスターの楽曲を見やすく整理した成果物です。
-            情報を分かりやすく整理して見せることを意識して作成しました。
-          </p>
-        </article>
-
-        <article class="entry">
-          <div class="entry-head">
-            <h3>境界値チェッカー</h3>
-            <a href="https://github.com/Mtsubasa/go-boundary-checker" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </div>
-          <p>
-            GoのASTを使って条件式を解析し、境界値テストの設計を支援するツールです。
-            比較演算子や条件分岐に着目し、テスト観点を整理しやすくすることを目指しています。
-          </p>
-          <p class="tech">Go / AST / 静的解析</p>
-        </article>
+          <article class="panel project-card">
+            <div class="meta-row">
+              <h3>境界値チェッカー</h3>
+            </div>
+            <p>
+              GoのASTを使って条件式を解析し、境界値テストの設計を支援するツールです。
+              比較演算子や条件分岐に着目し、テスト観点を整理しやすくすることを目指しています。
+            </p>
+            <p class="inline-link"><a href="https://github.com/Mtsubasa/go-boundary-checker" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section alt" id="skills">
-      <div class="container narrow">
-        <h2>Skills</h2>
-        <div class="skill-groups">
-          <div class="panel">
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="panel-grid three-col">
+          <section class="panel skill-box">
             <h3>Languages</h3>
-            <p>Go / Python / TypeScript / C++ / C / HTML / CSS</p>
-          </div>
-          <div class="panel">
+            <ul class="bullet-list">
+              <li>Go</li>
+              <li>Python</li>
+              <li>TypeScript</li>
+              <li>C++</li>
+              <li>C</li>
+              <li>HTML / CSS</li>
+            </ul>
+          </section>
+          <section class="panel skill-box">
             <h3>Frontend</h3>
-            <p>React / Next.js / Flutter / Tailwind CSS</p>
-          </div>
-          <div class="panel">
+            <ul class="bullet-list">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Flutter</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </section>
+          <section class="panel skill-box">
             <h3>Backend</h3>
-            <p>Go / Node.js / Hono / Gin / WebSocket</p>
-          </div>
-          <div class="panel">
+            <ul class="bullet-list">
+              <li>Go</li>
+              <li>Node.js</li>
+              <li>Hono</li>
+              <li>Gin</li>
+              <li>WebSocket</li>
+            </ul>
+          </section>
+          <section class="panel skill-box">
             <h3>Infrastructure / DB</h3>
-            <p>Docker / AWS / Cloudflare / Vercel / Render / PostgreSQL / MySQL</p>
-          </div>
-          <div class="panel">
+            <ul class="bullet-list">
+              <li>Docker</li>
+              <li>AWS</li>
+              <li>Cloudflare</li>
+              <li>Vercel</li>
+              <li>Render</li>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+            </ul>
+          </section>
+          <section class="panel skill-box">
             <h3>Tools</h3>
-            <p>GitHub / GitHub Projects / Figma / Discord</p>
-          </div>
+            <ul class="bullet-list">
+              <li>GitHub</li>
+              <li>GitHub Projects</li>
+              <li>Figma</li>
+            </ul>
+          </section>
         </div>
       </div>
     </section>
 
-    <section class="section" id="education">
-      <div class="container narrow">
-        <h2>Education</h2>
-
-        <article class="entry">
-          <p class="entry-date">2019年4月</p>
-          <h3>新居浜工業高等専門学校 電気情報工学科 入学</h3>
-        </article>
-        <article class="entry">
-          <p class="entry-date">2024年3月</p>
-          <h3>新居浜工業高等専門学校 電気情報工学科 卒業</h3>
-        </article>
-        <article class="entry">
-          <p class="entry-date">2024年4月</p>
-          <h3>九州工業大学 情報工学部 情報通信工学科 入学</h3>
-        </article>
-        <article class="entry">
-          <p class="entry-date">2026年3月</p>
-          <h3>九州工業大学 情報工学部 情報通信工学科 卒業予定</h3>
-        </article>
-        <article class="entry">
-          <p class="entry-date">2026年4月</p>
-          <h3>九州工業大学大学院 情報工学府 情報創生工学専攻 入学予定</h3>
-        </article>
-        <article class="entry">
-          <p class="entry-date">2028年3月</p>
-          <h3>九州工業大学大学院 情報工学府 情報創生工学専攻 卒業見込</h3>
-        </article>
-
-        <div class="panel qualification-panel">
-          <h3>資格</h3>
-          <ul class="summary-list">
-            <li>2021年10月 基本情報技術者試験 合格</li>
-            <li>2022年6月 応用情報技術者試験 合格</li>
-            <li>2024年3月 第一種陸上特殊無線技士（認定）</li>
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="panel">
+          <ul class="detail-list compact">
+            <li><span>2019年4月</span><strong>新居浜工業高等専門学校 電気情報工学科 入学</strong></li>
+            <li><span>2024年3月</span><strong>新居浜工業高等専門学校 電気情報工学科 卒業</strong></li>
+            <li><span>2024年4月</span><strong>九州工業大学 情報工学部 情報通信工学科 入学</strong></li>
+            <li><span>2026年3月</span><strong>九州工業大学 情報工学部 情報通信工学科 卒業</strong></li>
+            <li><span>2026年4月</span><strong>九州工業大学大学院 情報工学府 情報創生工学専攻 入学</strong></li>
+            <li><span>2028年3月</span><strong>九州工業大学大学院 情報工学府 情報創生工学専攻 卒業見込</strong></li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="contact">
-      <div class="container narrow">
-        <h2>Contact</h2>
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
         <div class="panel">
-          <ul class="contact-list">
-            <li><a href="https://github.com/Mtsubasa" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li><a href="https://zenn.dev/tsubasa_m" target="_blank" rel="noopener noreferrer">Zenn</a></li>
-            <li><a href="https://qiita.com/Mtsubasa" target="_blank" rel="noopener noreferrer">Qiita</a></li>
+          <ul class="detail-list compact">
+            <li><span>GitHub</span><strong><a href="https://github.com/Mtsubasa" target="_blank" rel="noopener noreferrer">Mtsubasa</a></strong></li>
+            <li><span>Zenn</span><strong><a href="https://zenn.dev/tsubasa_m" target="_blank" rel="noopener noreferrer">tsubasa_m</a></strong></li>
+            <li><span>Qiita</span><strong><a href="https://qiita.com/Mtsubasa" target="_blank" rel="noopener noreferrer">Mtsubasa</a></strong></li>
           </ul>
         </div>
       </div>
